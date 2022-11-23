@@ -56,6 +56,9 @@ You can use the chat composite in Communication Services to create these use cas
 | Participants | Show a participant roster                               |
 
 
+:::image type="content" source="../../media/mobile-ui/chat-android-full-screen.gif" alt-text="GIF animation that shows the chat composite experience on Android.":::
+
+
 ## Supported identities
 
 To initialize a composite and authenticate to the service, a user must have an Azure Communication Services identity. For more information, see [Authenticate to Azure Communication Services](../../authentication.md) and [Quickstart: Create and manage access tokens](../../../quickstarts/access-tokens.md).
@@ -89,6 +92,13 @@ You can adapt the Azure Communication Services call or chat composite to screen 
 |Split mode | Tablet mode|
 |---------|---------|
 | :::image type="content" source="../../media/mobile-ui/meet-splitscreen.png" alt-text="Screenshot that demonstrates a split-screen view."::: |  :::image type="content" source="../../media/mobile-ui/tablet-landscape.png" alt-text="Screenshot that demonstrates tablet mode."::: |
+
+
+
+Chat also supports partial screen view. You can Chat Composite UI view as a child element to any UI you have on the screen.
+
+:::image type="content" source="../../media/mobile-ui/chat-android-partial-view.gif" alt-text="GIF animation that shows the chat composite experience on Android opened as a partial view on the screen.":::
+
 
 ## Localization
 
